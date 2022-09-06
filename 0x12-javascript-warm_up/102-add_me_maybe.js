@@ -1,6 +1,6 @@
 !/usr/bin/node
 exports.callMeMoby = function (var1, callback) {
-  for (let i = 0; i < var1; i++) {
+  var1 = var1 + 1 {
     callback(var1);
   }
 };
