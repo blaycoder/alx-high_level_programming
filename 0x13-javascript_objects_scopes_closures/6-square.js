@@ -1,4 +1,4 @@
-#!usr/bin/node
+#!/usr/bin/node
 const mainSquare = require('./5-square');
 module.exports = class Square extends mainSquare {
     constructor(size){
