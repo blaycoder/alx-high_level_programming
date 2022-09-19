@@ -6,6 +6,7 @@ module.exports = class Rectangle{
 		this.height = h;
 	    }
 	}
+    //let str = 'X';
 	print(){
 	    let str = 'X';
 	    let multistr = str.repeat(this.width);

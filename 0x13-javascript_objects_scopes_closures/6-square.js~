@@ -1,0 +1,16 @@
+#!usr/bin/node
+const mainSquare = require('./5-square');
+module.exports = class Square extends mainSquare {
+    constructor(size){
+	super(size,size);
+    }
+    charPrint(c){
+	if (c === undefined){
+	    c = 'X';
+	}
+	let multiStr = c.repeat(size);
+	for(let i = 0; i < size; i++){
+	    console.log(multiStr)
+	}
+    }
+}
