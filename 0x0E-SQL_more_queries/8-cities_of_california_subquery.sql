@@ -1,4 +1,5 @@
 -- script that lists all the cities of California that can be found in the database hbtn_0d_usa.
 SELECT id, name
        WHERE name = 'california'
-       ORDER BY cities.id ASC
+       ORDER BY cities.id
+       ASC;
