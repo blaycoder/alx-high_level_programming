@@ -6,5 +6,4 @@ SELECT tv_shows.title, tv_genres.name
 
 	    LEFT JOIN tv_genres
 	    ON tv_shows.id = tv_genres.id
-	    WHERE tv_genres.name IS NULL tv.genres.name = 'NULL'
 	 ORDER BY tv_shows.title, tv_genre.name ASC;
