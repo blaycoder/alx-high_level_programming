@@ -1,0 +1,3 @@
+-- a script that creates the MySQL server user user_0d_1
+CREATE USER IDENTIFIED WITH mysql_native_password BY 'user_0d_1_pwd'
+IF EXISTS 'usr_0d__pwd@localhost';
